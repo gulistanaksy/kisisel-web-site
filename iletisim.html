@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                text-align: center;
+            }
+            table{
+                margin: auto;
+            }
+        </style>
+        <meta charset="utf-8">
+        <title>Gülistan aksoy'un Kişisel Web Sitesi</title>
+        <meta name="description" content="Gülistan aksoy'un Kişisel Web Sitesi">
+        <meta name="keywords" content="gülistan,aksoy,web,site,cv">
+    </head>
+    <body style="background-color:rgb(241, 220, 236);">
+        <nav>
+            <h1 style="color: rgb(133, 28, 106);">Gülistan AKSOY</h1>
+            <a href="index.html">Anasayfa</a> | 
+            <a href="cv.html">Özgeçmiş</a> |
+            <a href="iletisim.html">İletisim</a>
+            <br>
+            <hr>
+            <h2>Adres : </h2>
+            <p>İstanbul / Beylikdüzü</p>
+            <h2>Telefon : </h2>
+            <p>537 746 70 10</p>
+            <h2>Mail</h2>
+            <a href="mailto:gulistanaksoy87@gmail.com">gulistanaksoy87@gmail.com</a>
+            <hr>
+            <h2>Ziyaretçi</h2>
+                <form name="email" action="email.php" method="get">
+                <table>
+                    <tr><td>Ad Soyad : </td><td><input type="text" name="adsoyad"></td></tr>
+
+                    <tr><td>email : </td><td><input type="email" name="email"></td></tr>
+
+                    <tr><td>Mesaj : </td><td><textarea name="mesaj" cols="30" rows="10"></textarea></td></tr>
+
+                    <tr><td></td><td><input type="submit" disabled> <input type="reset"></td></tr>
+                </table>
+            </form>
+            
+        </nav>
+    </body>
+</html>
